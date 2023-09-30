@@ -1,0 +1,41 @@
+---
+title: The Association of Canadian Mountain Guides
+description: The Association of Canadian Mountain Guides is the IFMGA blah, blah... 
+template: splash
+hero:
+  tagline: Fun for the whole family!
+  image:
+    file: ../../assets/acmg-logo.svg
+  actions:
+    - text: Jump Right In
+      link: /about-us/10-who-we-are
+      icon: right-arrow
+      variant: primary
+    - text: Read the Starlight docs
+      link: https://starlight.astro.build
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Choose a path...
+
+<CardGrid>
+	<Card title="Update content">
+		Edit `src/content/docs/index.mdx` to see this page change.
+	</Card>
+	<Card title="Add new content">
+		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	</Card>
+	<Card title="Configure your site">
+		Edit your `sidebar` and other config in `astro.config.mjs`.
+	</Card>
+	<Card title="Read Our Technical Manuals" icon="open-book">
+		The ACMG's collection of technical publications used
+		in the Training and Assessment Program also also generally
+		available for purchase via 
+		[Apple Books](https://books.apple.com/us/author/association-of-canadian-mountain-guides/id1705099158) 
+		and the 
+		[Google Play Store](https://play.google.com/store/books/author?id=Association+of+Canadian+Mountain+Guides&hl=en_CA&gl=US).
+	</Card>
+</CardGrid>
