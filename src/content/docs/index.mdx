@@ -7,7 +7,7 @@ hero:
   image:
     file: ../../assets/acmg-logo.svg
   actions:
-    - text: Jump Right In
+    - text: Start at the beginning
       link: /about-us/10-who-we-are
       icon: right-arrow
       variant: primary
@@ -17,17 +17,19 @@ hero:
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Icon } from '@astrojs/starlight/components';
 
-## Choose a path...
 
 <CardGrid>
-	<Card title="Update content">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Contact Us" icon="magnifier">
+		Can't find what you need on our site? Please 
+		[contact us](/about-us/20-contact-us) and we 
+		would be happy to help you.
 	</Card>
 	<Card title="Add new content">
 		Add Markdown or MDX files to `src/content/docs` to create new pages.
 	</Card>
-	<Card title="Configure your site">
+	<Card title="Becoming an ACMG Certified Guide" icon="approve-check-circle">
 		Edit your `sidebar` and other config in `astro.config.mjs`.
 	</Card>
 	<Card title="Read Our Technical Manuals" icon="open-book">
