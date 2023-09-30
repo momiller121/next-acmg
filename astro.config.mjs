@@ -1,6 +1,5 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import nodejs from '@astrojs/node';
 
 import cloudflare from "@astrojs/cloudflare";
 
