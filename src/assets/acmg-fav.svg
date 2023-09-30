@@ -6,7 +6,6 @@
    y="0px"
    viewBox="0 0 127.99999 127.99974"
    xml:space="preserve"
-   inkscape:version="1.3 (0e150ed, 2023-07-21)"
    width="127.99999"
    height="127.99974"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -118,7 +117,7 @@
                         <dc:title>https://acmg.ca</dc:title>
                     </cc:Agent>
                 </dc:publisher>
-                <dc:description>Favicon of the Association of Canadian Mountain Guides</dc:description>
+                <dc:description>Logo of the Association of Canadian Mountain Guides</dc:description>
             </cc:Work>
         </rdf:RDF>
     </metadata>
