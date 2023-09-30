@@ -2,10 +2,18 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import nodejs from '@astrojs/node';
 
+import cloudflare from "@astrojs/cloudflare";
+
+// // https://astro.build/config
+// export default defineConfig({
+//   output: "server",
+//   adapter: cloudflare()
+// });
+
 export default defineConfig({
 	output: 'hybrid',
-	adapter: nodejs({ mode: 'middleware' }),
-	site: 'https://acmg-next.three2s.com',
+	adapter: cloudflare({ mode: 'middleware' }),
+	site: 'https://acmg-next.pages.dev',
 	integrations: [starlight({ title: 'Site with sitemap' })],
 	integrations: [
 		starlight({
