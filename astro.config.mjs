@@ -6,7 +6,7 @@ import cloudflare from "@astrojs/cloudflare";
 export default defineConfig({
 	output: 'hybrid',
 	adapter: cloudflare(),
-	site: 'https://acmg-next.pages.dev',
+	site: 'https://next-acmg.pages.dev',
 	integrations: [
 		starlight({
 			title: 'ACMG.ca',
