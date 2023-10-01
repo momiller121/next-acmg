@@ -16,7 +16,7 @@ export default defineConfig({
 				instagram: 'https://www.instagram.com/acmg.ca',
 			  },
 			logo: {
-				src: './src/assets/acmg-logo.svg',
+				src: './src/assets/acmg-logo-simple.svg',
 			},
 			customCss: [
 				'./src/styles/custom.css',
