@@ -31,7 +31,7 @@ export default defineConfig({
 					autogenerate: { directory: 'resources' },
 				},
 				{
-					label: 'Becomming a Guide',
+					label: 'Becoming a Guide',
 					autogenerate: { directory: 'prospective-guides' },
 				},
 			],
